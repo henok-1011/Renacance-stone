@@ -8570,7 +8570,7 @@ img {
 }
 
 .contact-form-textarea {
-    width: 100%;
+    width: 70%;
     height: 130px;
     color: #000;
     border: 1px solid #bcbcbc;
@@ -8579,10 +8579,16 @@ img {
     margin-bottom: 20px;
     padding: 15px;
     font-family: 'Poppins', sans-serif;
+    position: relative;
+    left: 0;
 }
 
 .contact-form-textarea::placeholder {
     color: #aaa;
+}
+
+.contact-form-textarea:focus+.qr-code {
+    display: none;
 }
 
 .contact-form-btn {
@@ -8666,5 +8672,11 @@ stone details page
     }
     .color-pallete {
         height: 900px;
+    }
+    .qr-code {
+        width: 50%;
+    }
+    .qr-code {
+        display: none;
     }
 }

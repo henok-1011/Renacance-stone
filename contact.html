@@ -157,8 +157,13 @@
                 <form>
                     <input type="text" placeholder="Name" class="contact-form-txt" />
                     <input type="text" placeholder="Email" class="contact-form-txt" />
-                    <textarea placeholder="Message" class="contact-form-textarea"></textarea>
-                    <input type="submit" name="Submit" class="contact-form-btn" />
+                    <div style="display: flex;flex-wrap: wrap;">
+                        <textarea placeholder="Message" class="contact-form-textarea"></textarea>
+                        <img class="qr-code" style="height: auto; width: 30%;" src="images/QR-code.jpg" alt="">
+                    </div>
+
+                    <input type="submit" name="Submit" class="contact-form-btn" id="contact-txt" />
+
                 </form>
             </div>
         </div>
@@ -252,7 +257,7 @@
         <div class="popup-inner">
             <div class="overlay-layer"></div>
             <div class="search-form">
-                <form method="post" action="templateshub.net">
+                <form method="post" action="">
                     <div class="form-group">
                         <fieldset>
                             <input type="search" class="form-control" name="search-input" value="" placeholder="Search Here" required>
@@ -293,6 +298,31 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-CE0deH3Jhj6GN4YvdCFZS7DpbXexzGU"></script>
     <script src="js/map-script.js"></script>
     <!--End Google Map APi-->
+    <script>
+        if ($(".qr-code").is(":visible")) {
+            $('.contact-form-textarea').focus(function() {
+                // store original height
+                $(this).attr('data-height', $(this).height()),
+                    $(this).attr('data-width', $(this).width());
+                // animate the height change
+                $(this).animate({
+                    width: 460
+                }, 'fast');
+                $(this).animate({
+                    height: 150
+                }, 'fast');
+            }).blur(function(e) {
+                // set to original height
+                $(this).animate({
+                    height: 130
+                }, 'fast');
+                $(this).animate({
+                    width: 300
+                }, 'fast');
+            });
+        }
+    </script>
+
 </body>
 
 <!-- stella-orre/contact.html  30 Nov 2019 03:46:47 GMT -->
