@@ -157,8 +157,8 @@
                 <form>
                     <input type="text" placeholder="Name" class="contact-form-txt" />
                     <input type="text" placeholder="Email" class="contact-form-txt" />
-                    <div style="display: flex;flex-wrap: wrap;">
-                        <textarea placeholder="Message" class="contact-form-textarea"></textarea>
+                    <div style="display: flex;">
+                        <textarea style="margin-top:5px;padding-bottom: 5px;" placeholder="Message" class="contact-form-textarea"></textarea>
                         <img class="qr-code" style="height: auto; width: 30%;" src="images/QR-code.jpg" alt="">
                     </div>
 
@@ -309,7 +309,7 @@
                     width: 460
                 }, 'fast');
                 $(this).animate({
-                    height: 150
+                    height: 145
                 }, 'fast');
             }).blur(function(e) {
                 // set to original height
@@ -317,7 +317,7 @@
                     height: 130
                 }, 'fast');
                 $(this).animate({
-                    width: 300
+                    width: 330
                 }, 'fast');
             });
         }
