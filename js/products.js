@@ -63,6 +63,6 @@ function loadJSON(callback) {
 
 
  window.addEventListener('load',()=>{
-     renderProducts()
+    renderProducts()
      console.log("loaded")
  })
