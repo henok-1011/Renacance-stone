@@ -3046,7 +3046,7 @@ img {
     height: 300px;
 }
 .catalogue a:hover *{
-    color:white
+    color:grey
 }
 
 .catalogue-item * {
