@@ -658,6 +658,7 @@ img {
 
 .main-header .header-top {
     position: relative;
+    color: #7f9758;
     background-color: #0f0f0f;
     border-bottom: 1px solid rgba(255, 255, 255, 0.10);
 }
@@ -677,14 +678,14 @@ img {
     float: left;
     font-size: 14px;
     line-height: 30px;
-    color: #8c8c8c;
+    color: #7f9758;
     font-weight: 400;
     padding: 10px 0px;
 }
 
 .main-header .header-top .info-list li a {
     position: relative;
-    color: #8c8c8c;
+    color: #7f9758;
     margin-right: 18px;
     padding-right: 18px;
     border-right: 1px solid #8c8c8c;
@@ -713,7 +714,7 @@ img {
     text-transform: uppercase;
 }
 
-
+.auto-container clearfix
 /* Dropdown Language */
 
 .main-header .language {
