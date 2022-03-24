@@ -3208,7 +3208,19 @@ img {
     color: #7f9758;
     background-color: rgba(255, 255, 255, 1);
 }
+/* .gallery-item .content .item-name{
+    width: 75%;
 
+} */
+.gallery-item .content .item-name .divider{
+    height: 0px;
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+.gallery-item .content .item-name .codename{
+    font-weight: normal;
+    font-size: 16px;
+}
 
 /*** 
 

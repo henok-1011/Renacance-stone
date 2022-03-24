@@ -2,6 +2,34 @@
     "high_end": {
         "granite": [
             {
+                "name": "Calacatta Borghese",
+                "codename": "",
+                "images": "/images/gallery/high-end/calcatta.png",
+                "type": "granite",
+                "desc": ""
+            },
+            {
+                "name": "Cristallo",
+                "codename": "",
+                "images": "/images/gallery/high-end/cristallo.png",
+                "type": "granite",
+                "desc": ""
+            },
+            {
+                "name": "Cristallo Blue",
+                "codename": "",
+                "images": "/images/gallery/high-end/cristallo-blue.png",
+                "type": "granite",
+                "desc": ""
+            },
+            {
+                "name": "Dakar",
+                "codename": "",
+                "images": "/images/gallery/high-end/dakar.png",
+                "type": "granite",
+                "desc": ""
+            },
+            {
                 "name": "I TIGER",
                 "codename": "ITG",
                 "images": "/images/gallery/high-end/ITG.jpg",
@@ -172,6 +200,41 @@
         ],
         "marble": [
             {
+                "name": "Fusion Blue",
+                "codename": "",
+                "images": "/images/gallery/high-end/fusion-blue.png",
+                "type": "marble",
+                "desc": ""
+            },
+            {
+                "name": "Fusion Mulitcolor",
+                "codename": "",
+                "images": "/images/gallery/high-end/fusion-multi.png",
+                "type": "marble",
+                "desc": ""
+            },
+            {
+                "name": "Fusion Red",
+                "codename": "",
+                "images": "/images/gallery/high-end/fusion-red.jpg",
+                "type": "marble",
+                "desc": ""
+            },
+            {
+                "name": "London Grey",
+                "codename": "",
+                "images": "/images/gallery/high-end/london-grey.png",
+                "type": "marble",
+                "desc": ""
+            },
+            {
+                "name": "Macaubas Fantasy",
+                "codename": "",
+                "images": "/images/gallery/high-end/macaubas.png",
+                "type": "marble",
+                "desc": ""
+            },
+            {
                 "name": "F BROWN",
                 "codename": "FBR",
                 "images": "/images/gallery/high-end/FBR.jpg",
@@ -195,6 +258,41 @@
         ],
         "sand-stone": [
             {
+                "name": "Monaco",
+                "codename": "",
+                "images": "/images/gallery/high-end/monaco.png",
+                "type": "sand-stone",
+                "desc": ""
+            },
+            {
+                "name": "Super White",
+                "codename": "",
+                "images": "/images/gallery/high-end/super-white.png",
+                "type": "sand-stone",
+                "desc": ""
+            },
+            {
+                "name": "Super White Calacatta",
+                "codename": "",
+                "images": "/images/gallery/high-end/super-white-calacatta.png",
+                "type": "sand-stone",
+                "desc": ""
+            },
+            {
+                "name": "Taj Mahal",
+                "codename": "",
+                "images": "/images/gallery/high-end/taj-mahal.png",
+                "type": "sand-stone",
+                "desc": ""
+            },
+            {
+                "name": "Vancouver",
+                "codename": "",
+                "images": "/images/gallery/high-end/vancouver.png",
+                "type": "sand-stone",
+                "desc": ""
+            },
+            {
                 "name": "RAINBOW",
                 "codename": "RBW",
                 "images": "/images/gallery/high-end/RBW.jpg",
@@ -205,6 +303,41 @@
     },
     "classic": {
         "granite": [
+            {
+                "name": "Autralis",
+                "codename": "",
+                "images": "/images/gallery/classic/austalis.png",
+                "type": "granite",
+                "desc": ""
+            },
+            {
+                "name": "Shadow Storm",
+                "codename": "",
+                "images": "/images/gallery/classic/shadow-storm.png",
+                "type": "granite",
+                "desc": ""
+            },
+            {
+                "name": "Titanium",
+                "codename": "",
+                "images": "/images/gallery/classic/titanium.png",
+                "type": "granite",
+                "desc": ""
+            },
+            {
+                "name": "Titanium Gold",
+                "codename": "",
+                "images": "/images/gallery/classic/titanium-gold.png",
+                "type": "granite",
+                "desc": ""
+            },
+            {
+                "name": "White Ice",
+                "codename": "",
+                "images": "/images/gallery/classic/white-ice.png",
+                "type": "granite",
+                "desc": ""
+            },
             {
                 "name": "C PORRINO",
                 "codename": "CPO",
@@ -262,8 +395,79 @@
                 "desc": ""
             }
         ],
-        "marble": [],
+        "marble": [
+            {
+                "name": "Bianco Primata",
+                "codename": "",
+                "images": "/images/gallery/classic/bianco.png",
+                "type": "marble",
+                "desc": ""
+            },
+            {
+                "name": "Caledonia",
+                "codename": "",
+                "images": "/images/gallery/classic/caledonia.png",
+                "type": "marble",
+                "desc": ""
+            },
+            {
+                "name": "Crema Gold",
+                "codename": "",
+                "images": "/images/gallery/classic/crema.png",
+                "type": "marble",
+                "desc": ""
+            },
+            {
+                "name": "White Dallas",
+                "codename": "",
+                "images": "/images/gallery/classic/white-dallas.png",
+                "type": "marble",
+                "desc": ""
+            },
+            {
+                "name": "White G",
+                "codename": "",
+                "images": "/images/gallery/classic/white-g.png",
+                "type": "marble",
+                "desc": ""
+            }
+        ],
         "sand-stone": [
+            {
+                "name": "Cygnus",
+                "codename": "",
+                "images": "/images/gallery/classic/cygnus.png",
+                "type": "sand-stone",
+                "desc": ""
+            },
+            {
+                "name": "Extreme White",
+                "codename": "",
+                "images": "/images/gallery/classic/extreme-white.png",
+                "type": "sand-stone",
+                "desc": ""
+            },
+            {
+                "name": "Snow Fall",
+                "codename": "",
+                "images": "/images/gallery/classic/snow-fall.png",
+                "type": "sand-stone",
+                "desc": ""
+            },
+            {
+                "name": "Taupe Grey",
+                "codename": "",
+                "images": "/images/gallery/classic/taupe-grey.png",
+                "type": "sand-stone",
+                "desc": ""
+            },
+            {
+                "name": "Typhoon Bordeaux Sienna",
+                "codename": "",
+                "images": "/images/gallery/classic/typhoon.png",
+                "type": "sand-stone",
+                "desc": ""
+            },
             {
                 "name": "RAINBOW",
                 "codename": "RBW",

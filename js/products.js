@@ -46,7 +46,13 @@ function loadJSON(callback) {
                          <div class="overlay-box">
                              <div class="overlay-inner">
                                  <div class="content">
-                                     <h3><a href="stone-detail.html?category=${catagories[i]}&type=${types[j]}&index=${idx}">${el.name}</a></h3>
+                                     <h3><a href="stone-detail.html?category=${catagories[i]}&type=${types[j]}&index=${idx}">
+                                        <div class="item-name col-10 m-auto">
+                                            <div>${el.name}</div>  
+                                            <div class="divider"></div>  
+                                            <div class="codename">${el.codename}</div>
+                                        </div>
+                                    </a></h3>
                                  </div>
                              </div>
                          </div>
